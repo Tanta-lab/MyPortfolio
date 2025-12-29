@@ -368,6 +368,12 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        .project-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -426,11 +432,19 @@
         </div>
         <div class="skill-card">
             <div class="skill-icon">⚛️</div>
-            <h3>Angular / à venir</h3>
+            <h3>Angular / Laravel / À venir</h3>
         </div>
         <div class="skill-card">
             <div class="skill-icon">🐘</div>
             <h3>PHP</h3>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🖼️</div>
+            <h3>Tailwind</h3>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🅱️</div>
+            <h3>bootstrap</h3>
         </div>
         <div class="skill-card">
             <div class="skill-icon">☕</div>
@@ -450,7 +464,7 @@
         </div>
         <div class="skill-card">
             <div class="skill-icon">🎨</div>
-            <h3>Procreate</h3>
+            <h3>Figma</h3>
         </div>
         <div class="skill-card">
             <div class="skill-icon">🎬</div>
@@ -471,83 +485,99 @@
     </div>
 
     <div class="projects-grid">
-        <div class="project-card" data-category="web">
-            <div class="project-image">⭐️</div>
-            <div class="project-content">
-                <h3>Site web dynamique</h3>
-                <p>Plateforme de vente en ligne moderne avec panier d'achat et compte client.</p>
-                <span class="project-tag">HTML</span>
-                <span class="project-tag">CSS</span>
-                <span class="project-tag">PHP</span>
-                <span class="project-tag">JavaScript</span>
-                <span class="project-tag">SQL</span>
-            </div>
-        </div>
 
-        <div class="project-card" data-category="app">
-            <div class="project-image">💼</div>
-            <div class="project-content">
-                <h3>Application de Gestion</h3>
-                <p>Application web pour l'affichage d'une liste de médecins avec interface intuitive.</p>
-                <span class="project-tag">Angular</span>
-                <span class="project-tag">Typescript</span>
+        <a href="EnzoPrestige" target="_blank" class="project-link">
+            <div class="project-card" data-category="web">
+                <div class="project-image">⭐️</div>
+                <div class="project-content">
+                    <h3>Site web dynamique</h3>
+                    <p>Plateforme de vente en ligne moderne avec panier d'achat et compte client.</p>
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">PHP</span>
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">SQL</span>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="project-card" data-category="app">
-            <div class="project-image">⛅️</div>
-            <div class="project-content">
-                <h3>Appli météo</h3>
-                <p>Application de prévision météo qui conseille l'utilisateur sur les vêtement à porter en fonction du temps</p>
-                <span class="project-tag">API</span>
-                <span class="project-tag">HTML</span>
-                <span class="project-tag">CSS</span>
-                <span class="project-tag">JavaScript</span>
+        <a href="GSB" target="_blank" class="project-link">
+            <div class="project-card" data-category="app">
+                <div class="project-image">💼</div>
+                <div class="project-content">
+                    <h3>Application de Gestion</h3>
+                    <p>Application web pour l'affichage d'une liste de médecins avec interface intuitive.</p>
+                    <span class="project-tag">Angular</span>
+                    <span class="project-tag">Typescript</span>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="project-card" data-category="app">
-            <div class="project-image">🔍</div>
-            <div class="project-content">
-                <h3>Liste de contact</h3>
-                <p>Application basique affichant une liste d'utilisateurs</p>
-                <span class="project-tag">HTML</span>
-                <span class="project-tag">CSS</span>
-                <span class="project-tag">JSON</span>
+        <a href="https://tanta-lab.github.io/WeatherFashion/" target="_blank" class="project-link">
+            <div class="project-card" data-category="app">
+                <div class="project-image">⛅️</div>
+                <div class="project-content">
+                    <h3>Appli météo</h3>
+                    <p>Application de prévision météo qui conseille l'utilisateur sur les vêtement à porter en fonction du temps</p>
+                    <span class="project-tag">API</span>
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                    <span class="project-tag">Figma</span>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="project-card" data-category="access">
-            <div class="project-image">🎬</div>
-            <div class="project-content">
-                <h3>Site accessible</h3>
-                <p>Site accessible permettant d'en apprendre plus sur un groupe, avec ou sans la vue ou même l'ouïe.</p>
-                <span class="project-tag">HTML</span>
-                <span class="project-tag">CSS</span>
+        <a href="https://tanta-lab.github.io/jsonplaceholder-acc/" target="_blank" class="project-link">
+            <div class="project-card" data-category="app">
+                <div class="project-image">🔍</div>
+                <div class="project-content">
+                    <h3>Liste de contact</h3>
+                    <p>Application basique affichant une liste d'utilisateurs</p>
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JSON</span>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="project-card" data-category="access">
-            <div class="project-image">🔭</div>
-            <div class="project-content">
-                <h3>La course vers l'éspace</h3>
-                <p>Mini cours accessible sur le theme de la course vers l'éspace.</p>
-                <span class="project-tag">HTML</span>
-                <span class="project-tag">CSS</span>
-                <span class="project-tag">JavaScript</span>
+        <a href="https://tanta-lab.github.io/Blackpink/" target="_blank" class="project-link">
+            <div class="project-card" data-category="access">
+                <div class="project-image">🎬</div>
+                <div class="project-content">
+                    <h3>Site accessible</h3>
+                    <p>Site accessible permettant d'en apprendre plus sur un groupe, avec ou sans la vue ou même l'ouïe.</p>
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="project-card" data-category="app">
-            <div class="project-image">🧮</div>
-            <div class="project-content">
-                <h3>Calculette de monnaie</h3>
-                <p>Site intuitif calculant la monnaie à rendre.</p>
-                <span class="project-tag">HTML</span>
-                <span class="project-tag">CSS</span>
-                <span class="project-tag">JavaScript</span>
+        <a href="https://tanta-lab.github.io/Course-vers-l-espace/" target="_blank" class="project-link">
+            <div class="project-card" data-category="access">
+                <div class="project-image">🔭</div>
+                <div class="project-content">
+                    <h3>La course vers l'éspace</h3>
+                    <p>Mini cours accessible sur le theme de la course vers l'éspace.</p>
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                </div>
             </div>
-        </div>
+        </a>
+
+        <a href="https://tanta-lab.github.io/MonnaieZen/" target="_blank" class="project-link">
+            <div class="project-card" data-category="app">
+                <div class="project-image">🧮</div>
+                <div class="project-content">
+                    <h3>Calculette de monnaie</h3>
+                    <p>Site intuitif calculant la monnaie à rendre.</p>
+                    <span class="project-tag">HTML</span>
+                    <span class="project-tag">CSS</span>
+                    <span class="project-tag">JavaScript</span>
+                </div>
+            </div>
+        </a>
     </div>
 </section>
 
